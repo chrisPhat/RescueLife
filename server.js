@@ -127,7 +127,7 @@ app.post('/addPet', (req, res) =>{
         user: req.user.id,
         petName,
         adoptable,
-        // category,
+        category,
         breed,
         species,
         age,

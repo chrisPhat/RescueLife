@@ -12,9 +12,9 @@ const PetSchema = new mongoose.Schema({
         type: Boolean,
         default: false //Added this for when the field is unchecked
     },
-    // category: {
-    //     type: String, possibleValues: ['Dog','Cat','Equine','Other']
-    // },
+    category: {
+        type: String
+    },
     breed: {
         type: String
     },
